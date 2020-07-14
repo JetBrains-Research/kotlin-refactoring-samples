@@ -1,11 +1,11 @@
 package shapes
 
-class Rectangle(val width: Double, val length: Double) : BaseShape {
+class Rectangle(val width: Double, val height: Double) : BaseShape {
     override fun getArea(): Double {
-        return width * length
+        return width * height
     }
 
     override fun getPerimeter(): Double {
-        return 2 * (width + length)
+        return 2 * (width + height)
     }
 }
