@@ -1,7 +1,7 @@
 package shapes
 
 class Rectangle(val width: Double, val height: Double) : BaseShape {
-    val shape: String = "Rectangle"
+    val shapeName: String = "Rectangle"
 
     override fun getArea(): Double {
         return width * height
@@ -12,6 +12,6 @@ class Rectangle(val width: Double, val height: Double) : BaseShape {
     }
 
     override fun getName(): String {
-        return shape
+        return shapeName
     }
 }

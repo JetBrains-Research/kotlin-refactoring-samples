@@ -3,7 +3,7 @@ package shapes
 import kotlin.math.pow
 
 class Circle(private val radius: Double) : BaseShape {
-    val shape: String = "Circle"
+    val shapeName: String = "Circle"
 
     override fun getArea(): Double {
         return Math.PI * radius.pow(2.0)
@@ -14,6 +14,6 @@ class Circle(private val radius: Double) : BaseShape {
     }
 
     override fun getName(): String {
-        return shape
+        return shapeName
     }
 }
