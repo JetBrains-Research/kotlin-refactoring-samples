@@ -1,5 +1,7 @@
 package shapes
 
+import Point
+
 class Rectangle(val width: Double, val height: Double) : BaseShape {
     val shapeName: String = "Rectangle"
 
