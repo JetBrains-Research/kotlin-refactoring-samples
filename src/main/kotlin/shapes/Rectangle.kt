@@ -14,4 +14,8 @@ class Rectangle(val width: Double, val height: Double) : BaseShape {
     override fun getName(): String {
         return shapeName
     }
+
+    fun contains(point: Point) {
+        // TODO: implement it
+    }
 }
