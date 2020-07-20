@@ -2,7 +2,7 @@ package shapes
 
 import Point
 
-class Rectangle(val width: Double, val height: Double) : BaseShape {
+class Rectangle(val width: Double, val height: Double) : Shape {
     val shapeName: String = "Rectangle"
 
     override fun getArea(): Double {
