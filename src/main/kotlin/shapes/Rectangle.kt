@@ -17,7 +17,7 @@ class Rectangle(val width: Double, val height: Double) : Shape {
         return shapeName
     }
 
-    fun contains(point: Point) {
+    fun containsPoint(point: Point) {
         // TODO: implement it
     }
 }
