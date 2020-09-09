@@ -1,5 +1,6 @@
 package shapes
 
+import Point
 import kotlin.math.pow
 
 class Circle(private val radius: Double) : Shape {
@@ -15,5 +16,9 @@ class Circle(private val radius: Double) : Shape {
 
     override fun getName(): String {
         return shapeName
+    }
+
+    fun containsPoint(shape: Shape, point: Point) {
+        // TODO: implement it
     }
 }
