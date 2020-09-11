@@ -21,4 +21,8 @@ class Circle(private val radius: Double) : Shape {
     fun containsPoint(shape: Shape, point: Point) {
         // TODO: implement it
     }
+
+    fun containsPoint(shape: Shape) {
+        // TODO: implement it
+    }
 }
