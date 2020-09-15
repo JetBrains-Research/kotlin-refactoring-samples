@@ -1,9 +1,6 @@
 package shapes
 
-import Point
-
-class Rectangle(val width: Double, val height: Double) : Shape {
-    val shapeName: String = "Rectangle"
+open class Rectangle(val width: Double, val height: Double) : Shape {
 
     override fun getArea(): Double {
         return width * height
@@ -14,7 +11,7 @@ class Rectangle(val width: Double, val height: Double) : Shape {
     }
 
     override fun getName(): String {
-        return shapeName
+        return "Rectangle"
     }
 
 }
