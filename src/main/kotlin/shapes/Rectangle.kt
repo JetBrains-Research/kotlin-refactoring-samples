@@ -1,16 +1,16 @@
 package shapes
 
-open class Rectangle(val width: Double, val height: Double)  {
+open class Rectangle(val width: Double, val height: Double) : Shape {
 
-    fun getArea(): Double {
+    override fun getArea(): Double {
         return width * height
     }
 
-    fun getPerimeter(): Double {
+    override fun getPerimeter(): Double {
         return 2 * (width + height)
     }
 
-    open fun getName(): String {
+    override fun getName(): String {
         return "Rectangle"
     }
 
