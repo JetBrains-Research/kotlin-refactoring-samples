@@ -3,26 +3,26 @@ package shapes
 import Point
 import kotlin.math.pow
 
-class Circle(private val radius: Double) : Shape {
+class Circle(private val radius: Double) {
     val shapeName: String = "Circle"
 
-    override fun getArea(): Double {
+    fun getArea(): Double {
         return Math.PI * radius.pow(2.0)
     }
 
-    override fun getPerimeter(): Double {
+    fun getPerimeter(): Double {
         return 2 * Math.PI * radius
     }
 
-    override fun getName(): String {
+    fun getName(): String {
         return shapeName
     }
 
-    fun containsPoint(shape: Shape, point: Point) {
+    fun containsPoint(point: Point) {
         // TODO: implement it
     }
 
-    fun containsPoint(shape: Shape) {
+    fun containsPoint() {
         // TODO: implement it
     }
 
