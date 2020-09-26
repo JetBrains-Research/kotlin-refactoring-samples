@@ -8,10 +8,6 @@ class Person(val name: String, val age: Int, val id: Int) {
     }
 
     fun getPersonId(): String {
-        return getTextId()
-    }
-
-    fun getTextId(): String {
         return "Person's id is: $id"
     }
 
