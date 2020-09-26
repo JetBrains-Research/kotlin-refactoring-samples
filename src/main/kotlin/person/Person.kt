@@ -7,4 +7,12 @@ class Person(val name: String, val age: Int, val id: Int) {
         return age > 0 && age < 110
     }
 
+    fun getPersonId(): String {
+        return getTextId()
+    }
+
+    fun getTextId(): String {
+        return "Person's id is: $id"
+    }
+
 }
