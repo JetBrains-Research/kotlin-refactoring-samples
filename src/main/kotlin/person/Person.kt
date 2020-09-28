@@ -11,4 +11,10 @@ class Person(val name: String, val age: Int, val id: Int) {
         return "Person's id is: $id"
     }
 
+    fun printInfo() {
+        println("Name: $name")
+        println("Age: $age")
+        println("Id: $id")
+    }
+
 }
