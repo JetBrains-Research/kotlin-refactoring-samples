@@ -10,4 +10,13 @@ class Square(val len: Double) : Rectangle(len, len) {
         val text = "The area of the shape is measured by multiplying the width times the height."
         return text
     }
+
+    fun desc() {
+        val d = getDescription()
+        emptyMethod(d)
+    }
+
+    fun emptyMethod(d: String) {
+        TODO()
+    }
 }
