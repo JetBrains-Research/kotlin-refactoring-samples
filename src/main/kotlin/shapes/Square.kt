@@ -12,7 +12,8 @@ class Square(val len: Double) : Rectangle(len, len) {
     }
 
     fun desc() {
-        emptyMethod(getDescription())
+        var d = getDescription()
+        emptyMethod(d)
     }
 
     fun emptyMethod(d: String) {
